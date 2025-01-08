@@ -1,0 +1,35 @@
+﻿<Page x:Name="page" x:Class="CountryHouse.Buildings"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CountryHouse"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Buildings">
+
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled">
+            <WrapPanel x:Name="wp"/>
+            <!--<ItemsControl Name="ICBuildings">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <RadioButton>
+                        <StackPanel Margin= "5" Orientation= "Vertical" MouseDown="StackPanel_MouseDown">
+                            <TextBlock Text="{Binding Path=Name, StringFormat='Наименование: {0}'}" Margin= "3" />
+                            <TextBlock Text="{Binding Path=Status, StringFormat='Статус: {0}'}" Margin= "3" />
+                            <TextBlock Text="{Binding Path=DateBuild, StringFormat='Дата постройки: {0}'}" Margin= "3" />
+                            <TextBlock Text="{Binding Path=TypeBuild, StringFormat='Тип постройки: {0}'}" Margin= "3" />
+                        </StackPanel >
+                        </RadioButton>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>-->
+        </ScrollViewer>
+    </Grid>
+</Page>
